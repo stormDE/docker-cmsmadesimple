@@ -1,4 +1,5 @@
 FROM php:7.4.4-apache-buster
+##test
 ENV DEBIAN_FRONTEND noninteractive
 ARG CMSMADESIMPLE_VERSION=2.2.13
 WORKDIR /var/www/html
